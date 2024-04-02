@@ -1,5 +1,5 @@
 const page = () => {
-  return "this is dashboard page";
+  return <div>default post page</div>;
 };
 
 export default page;
