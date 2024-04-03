@@ -1,5 +1,5 @@
 const page = () => {
-  return <div>default page</div>;
+  return <div>intercepting pag 2</div>;
 };
 
 export default page;

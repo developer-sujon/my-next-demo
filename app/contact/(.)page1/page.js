@@ -1,5 +1,5 @@
 const page = () => {
-  return "this is dashboard page";
+  return <div>intercepting contact</div>;
 };
 
 export default page;
