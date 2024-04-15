@@ -1,0 +1,22 @@
+GET http://localhost:3000/api/posts
+
+###
+POST http://localhost:3000/api/posts
+content-type: application/json
+
+{
+    "title": "new post"
+}
+
+###
+GET http://localhost:3000/api/posts/6
+
+###
+PATCH http://localhost:3000/api/posts/6
+content-type: application/json
+
+{
+    "title": "update post 6"
+}
+###
+DELETE http://localhost:3000/api/posts/6
